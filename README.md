@@ -39,16 +39,7 @@ import { startGame, move } from '2048-ts-engine';
 import { Direction, Game, GameStatus } from '2048-ts-engine/src/types';
 
 const newGame = startGame();
-const gameProcessed = move(Direction.UP, {
-  "score": 16,
-  "board": [
-    [ 0, 0, 4, 0 ],
-    [ 0, 0, 0, 0 ],
-    [ 2, 0, 0, 0 ],
-    [ 4, 8, 0, 8 ]
-  ],
-  "gameStatus": "STARTED"
-});
+const gameProcessed = move(Direction.UP, newGame);
 ```
 
 ## Useful scripts
