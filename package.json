@@ -1,13 +1,18 @@
 {
   "name": "2048-ts-engine",
-  "version": "1.1.7",
+  "version": "1.2.7",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc -p tsconfig.json"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "2048",
+    "game",
+    "engine"
+  ],
   "author": "Karel Nguyen",
   "license": "ISC",
   "devDependencies": {
