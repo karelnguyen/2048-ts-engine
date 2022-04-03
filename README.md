@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started 🚀
 `2048-ts-engine` is a typescript based app that handles logic for 2048 game. You can also use plain JS, if Typescript is not needed.
 
 ## Installation
@@ -28,6 +28,8 @@ Both these functions return the shape of a game with all its relevant data defin
   "gameStatus": "STARTED"
 }
 ```
+
+You will need need to store the the current state somewhere, since the engine only process the game, and after every move, the current state of game is returned.
 
 
 ```js
